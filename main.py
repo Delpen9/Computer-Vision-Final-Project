@@ -4,7 +4,7 @@ import os
 import xml.etree.ElementTree as et
 import pickle
 from helper_classes import WeakClassifier
-from ViolaJones import ViolaJones, convert_images_to_integral_images, Boosting, split_dataset
+from ViolaJones import convert_images_to_integral_images, Boosting, split_dataset
 import time
 from scipy import stats
 from sklearn.cluster import KMeans
